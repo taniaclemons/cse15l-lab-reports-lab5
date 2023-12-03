@@ -1,15 +1,15 @@
 # Part 1 – Debugging Scenario
 
-Student:
+**Student**:
 ![Image](Symptom bug unfixed.png)
-`Even though my first test managed to merge the two lists successfully my second test failed. Is it an issue with elements of equal value?`
+Even though my first test managed to merge the two lists successfully my second test failed. Is it an issue with elements of equal value?
 
-TA:
-`There seems to be an issue at line 42 where the method is meant to add the rest of the elements from list2 when list1 is empty. Try to see if you’re adding the correct elements from list2.`
+**TA**:
+There seems to be an issue at line 42 where the method is meant to add the rest of the elements from list2 when list1 is empty. Try to see if you’re adding the correct elements from list2.
 
-Student:
+**Student**:
 ![Image](Bug fixed.png)
-`Yes, there was the issue. The bug was I didn’t update the correct index (should have incremented index2 not index1) so it wasn’t adding the correct elements.`
+Yes, there was the issue. The bug was I didn’t update the correct index (should have incremented index2 not index1) so it wasn’t adding the correct elements.
 
 
 # Part 2 – Reflection
